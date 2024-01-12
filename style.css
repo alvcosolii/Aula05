@@ -1,0 +1,84 @@
+body{
+    background-color: #1b1833;
+    font-family: 'Recursive', sans-serif;
+
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 20px;
+    align-items: center;
+}
+.cabecalho_logo{
+    max-width: 150px;
+}
+.cabecalho_lista{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+
+    
+}
+
+.lista_item{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.banner{
+    background-image: url("https://redeardente.com/wp-content/uploads/2023/06/Personagens-mais-fortes-da-marvel.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.banner_textos{
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+.banner_titulo{
+    font-size: 24px;
+    font-family: "Pacifico";
+    color: #1b1833;
+}
+
+.banner_detalhe{
+    font-size: 36px;
+    font-family: "Rubik Bubbles";
+    color: #1b1833;
+}
+
+.banner_botao{
+    color: white;
+    background-color: #1b1833;
+    font-family: "Pacifico";
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+
+
+
+
